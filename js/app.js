@@ -36,6 +36,7 @@ let question2 = prompt("Am I over 6ft tall? Answer yes or no");
 }
 Q2();
 
+function Q3 (){
 let question3 = prompt("Is my favorite color blue? Answer yes or no");
     if (answer3 == question3.toLowerCase()) {
         // console.log("That's Correct!")
@@ -44,6 +45,9 @@ let question3 = prompt("Is my favorite color blue? Answer yes or no");
         } else {
         alert ("wrong try again");
         }
+}
+
+function Q4 () {
 let question4 = prompt("Am I 28 years old? Answer yes or no");
         if (answer4 == question4.toLowerCase()) {
             // console.log("That's Correct!")
@@ -52,6 +56,10 @@ let question4 = prompt("Am I 28 years old? Answer yes or no");
             } else {
             alert ("wrong try again");
             }
+        }
+
+
+function Q5 () {
 let question5 = prompt("Have I ever been to Germeny Answer yes or no");
     if (answer5 == question5.toLowerCase()) {
         // console.log("That's Correct!")
@@ -60,6 +68,7 @@ let question5 = prompt("Have I ever been to Germeny Answer yes or no");
         } else {
         alert ("wrong try again");
          }
+}
 /// alert("Thanks For Playing " + person + "!"); 
 
 let numberGuess = prompt("Guess a nummber between 1-10.");
@@ -67,6 +76,7 @@ let numberAnswer = 7;
 //let listAnswers = ['dog', 'cheetah', 'cat', 'tiger', 'wolf', 'elephant'];
 //let bigQuestion = prompt("Guess what my favorite animals are from this list? There are 2 possible answers. Pick on of the numbers between 1-6 attached to the answer and type the number in prompt. 1: Dog , 2: cheetah , 3: cat , 4: tiger , 5: wolf , 6: elephant")
 //let bigAnswer = [listAnswers[1], listAnswers[4]];
+
 
 if (numberGuess == numberAnswer){
 alert("That's Correct!")

@@ -14,3 +14,4 @@ A Guessing Game about Darran. A simple input and output quiz, using confirm and 
 ## Links
 
 ![image](Screenshot.png)
+![image](screenshot1.png)

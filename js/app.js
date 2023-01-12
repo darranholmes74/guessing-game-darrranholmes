@@ -12,7 +12,7 @@ let answer4 = "yes";
 let answer5 = "no";
 
    
-
+function Q1 (){
 let question1 = prompt("Is my last name Holmes? Answer yes or no");
     if (answer1 == question1.toLowerCase()) {
         // console.log("That's Correct!")
@@ -21,6 +21,10 @@ let question1 = prompt("Is my last name Holmes? Answer yes or no");
     } else {
     alert ("wrong try again");
     }
+}
+Q1();
+
+function Q2 (){
 let question2 = prompt("Am I over 6ft tall? Answer yes or no");  
     if (answer2 == question2.toLowerCase()) {
        // console.log("That's Correct!")
@@ -29,6 +33,9 @@ let question2 = prompt("Am I over 6ft tall? Answer yes or no");
         } else {
         alert ("wrong try again");
         }
+}
+Q2();
+
 let question3 = prompt("Is my favorite color blue? Answer yes or no");
     if (answer3 == question3.toLowerCase()) {
         // console.log("That's Correct!")

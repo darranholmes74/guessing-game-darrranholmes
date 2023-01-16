@@ -1,8 +1,83 @@
 h1 {
-border: thin solid orange;
-padding: 20px
+    border: thick solid #453f37;
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    color: #f1eeba
+    
+}
+
+h2 {
+    border: thick solid #453f37;
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    color: #f1eeba
 }
 
 p {
-    background-color: blue;
+    background-color: #b6b994;
+    text-align: center;
+    padding: 40px;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family:fantasy;
+    color: #f1eeba;
 }
+
+body, html {
+    height: 100%;
+    background-color: #818165;
+}
+.tracerBackground {
+    background-image: url("tracer.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0%;
+    image-rendering: auto;
+    border-radius: 50px;
+    
+ 
+  }
+ol, ul  {
+    color: #f1eeba;
+    text-align: center;
+    background-color: #b6b994;
+    width: 400px;
+    background-position: center;
+    border-radius: 20px;
+    list-style-position: inside;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family:fantasy;
+
+}
+
+
+
+
+footer {
+    padding-bottom: 5px;
+}
+
+    /* background-color: #cccccc; */
+
+/* selects any drect children
+header > h1 {
+   color: red
+}
+
+/ a "siblin" tag that is directly after the header
+header + p {
+    color: red; 
+} 
+/ selects h2, as long as there is a header somewhere above it
+header ~ h2 {
+
+} 
+
+p:hover
